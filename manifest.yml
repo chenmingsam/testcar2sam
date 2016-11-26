@@ -1,0 +1,12 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: testcar2sam
+  host: testcar2sam
+  disk_quota: 1024M
+  services:
+  - Conversation-jz
+  - Speech to Text-ze
+  - Text to Speech-wg
